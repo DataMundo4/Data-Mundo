@@ -1,0 +1,189 @@
+* {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #e6e6e6;
+}
+
+header, .medio, footer {
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;
+}
+
+header nav {
+	background: #3A6CF5;
+	overflow: hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #89A4EF
+}
+
+
+.medio{
+
+	width:500%;
+	margin:;
+	display:inline-block;
+	overflow: hidden;
+
+
+	display: flex;
+	width:300%;
+	animation-name: switch  ;
+	animation-duration: 3.0s;
+	
+
+	padding-left:0;
+	width:50%;
+	list-style:none;
+	position: right 80px;
+	}
+	
+	@keyframes switch {
+		0%{transform: translateX(100px); 
+			opacity: 0;
+		}
+		}
+	
+_________
+}
+.medio .article {
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+}
+
+.medio .article article {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 30%;
+	background:;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+
+
+aside.imagen {
+	width: 20%;
+	background:;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+aside.vision{
+	width: 30%;
+	background: ;
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+
+header {
+	background: lightgreen;
+
+}
+
+
+.menu{
+    padding:0;
+    list-style:none;
+    width:550px;
+    font-size:18px;
+    background:#000;
+    border: 1px solid rgba(0,0,0,0.8);
+}
+ 
+.menu li a{
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    background:#000;
+    text-decoration:none;
+    color:white;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    filter: dropshadow(color=#A9D0F5, offx=1, offy=0);
+    padding:10px;
+    padding-left:20px;
+}
+ /**/
+.menu li ul li a{
+    font-size:14px;
+    color:black;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+    
+}
+ 
+.menu li a:hover{
+
+    -moz-transition: background 0.3s ease-in;
+    -webkit-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+}
+ 
+.menu ul{
+    margin:1;
+    padding:0;
+    list-style:none;
+    height:0;
+    overflow: hidden;
+    transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+}
+ 
+.menu li:hover ul{
+    height:120px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+ 
+.menu ul li a{
+    background:lightgray;
+}
+ 
+.menu ul li a:hover {
+    background: none repeat scroll 0 0 lightgray;
+    color: #fff;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
+
+
+footer {
+	background: lightgray;
+	text-align: center;
+	color: white;
+	padding:0.1%;
+
+}
+
